@@ -1,8 +1,8 @@
-// vars/testApp.groovy
+// vars/buildApp.groovy
 def call(Map config = [:]) {
-    stage('Test') {
+    stage('Build') {
         def profile = config.profile ?: 'dev'
-        echo "Testing the application with profile: ${profile}"
-        sh "mvn test -P${profile}"
+        echo "Building the application with profile: ${profile}"
+       
     }
 }
