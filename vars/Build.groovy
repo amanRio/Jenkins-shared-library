@@ -1,5 +1,5 @@
 // vars/buildApp.groovy
-import com.shared-test.utils.MessageFormatter
+import com.example.utils.MessageFormatter
 
 def call(Map config = [:]) {
     stage('Build') {
