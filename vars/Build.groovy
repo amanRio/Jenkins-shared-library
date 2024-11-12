@@ -6,5 +6,6 @@ def call(Map config = [:]) {
         def message = MessageFormatter.formatMessage("Deployment started", profile)
         echo message
         sh "mvn clean install -P${profile}"
+        
     }
 }
