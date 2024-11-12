@@ -7,6 +7,5 @@ def call(Map config = [:]) {
         echo "Building the application with profile: ${profile}"
         def message = MessageFormatter.formatMessage("Deployment started", profile)
         echo message
-        
     }
 }
