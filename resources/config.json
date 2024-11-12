@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "url": "http://dev.example.com",
+        "database": "dev_db"
+    },
+    "prod": {
+        "url": "http://prod.example.com",
+        "database": "prod_db"
+    }
+}
