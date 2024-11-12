@@ -1,4 +1,4 @@
-package com.shared-test.utils
+package com.example.utils
  
 
 
